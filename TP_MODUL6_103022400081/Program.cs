@@ -1,1 +1,1 @@
-﻿Console.WriteLine("TP MOD 6");
+﻿Console.WriteLine("TP MOD6");
