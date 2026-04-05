@@ -15,11 +15,13 @@ namespace TP_MODUL6_103022400081
             Random rand = new Random();
             this.id = rand.Next(10000, 99999);
             this.title = title;
-            this.playCount = null;
+            this.playCount = "0";
         }
         public void IncreasePlayCount(int count)
         {
-            playCount += count;
+            int current = int.Parse(playCount);
+            current += count;
+            playCount = current.ToString();
         }
         public void PrintTrackDetails()
         {
